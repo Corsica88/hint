@@ -795,10 +795,10 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
-"@types/color-string@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@types/color-string/-/color-string-1.5.2.tgz#cdb9879b6feca2aa27846adfc3988ef2413ee138"
-  integrity sha512-hAhTmfFYVdzgsKwpC9Flc6h9Do64PhKoNxy3YxE0ze+0LIh3a7TrDQAxiujmANQbDRDgGduEz+9sMS+Zd+J7hA==
+"@types/color-string@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@types/color-string/-/color-string-1.5.4.tgz#cf5af7bad22c0db64e43b49078a1db0a68e8854b"
+  integrity sha512-FfRPJbKtmmfczTbMgU1pO3dSHUhfmH8HJb/AffvU4WgzmM3RnHp4uT95BS+9PJNpZNJQcDyLnxusFPjzQ0sl7w==
 
 "@types/configstore@*", "@types/configstore@^5.0.1":
   version "5.0.1"
