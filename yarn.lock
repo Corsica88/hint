@@ -812,10 +812,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/content-type@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@types/content-type/-/content-type-1.1.5.tgz#aa02dca40864749a9e2bf0161a6216da57e3ede5"
-  integrity sha512-dgMN+syt1xb7Hk8LU6AODOfPlvz5z1CbXpPuJE5ZrX9STfBOIXF09pEB8N7a97WT9dbngt3ksDCm6GW6yMrxfQ==
+"@types/content-type@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@types/content-type/-/content-type-1.1.7.tgz#1e74d573f0d0bd5a6076ff44c6080212fca55a5b"
+  integrity sha512-dSM/IQ1fgM1aSQ2PlHR4uWQGDjs9SY+/ilm228CIs9hwlyIfW+q5asThulBforWR6ktt/o8L8m6GPW/Fz1dk2A==
 
 "@types/css-modules-loader-core@^1.1.0":
   version "1.1.0"
