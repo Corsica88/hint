@@ -1,14 +1,48 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: monthly
-  open-pull-requests-limit: 99
-  ignore:
-  - dependency-name: angular
-    versions:
-    - ">= 0"
-  - dependency-name: jquery
-    versions:
-    - ">= 0"
+  # NPM Dependencies - Daily updates
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "02:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 99
+    reviewers:
+      - "Corsica88"
+    assignees:
+      - "Corsica88"
+    labels:
+      - "dependencies"
+      - "automated"
+    commit-message:
+      prefix: "chore(deps):"
+      include: "scope"
+    pull-request-branch-name:
+      separator: "/"
+    allow:
+      - dependency-type: "all"
+    rebase-strategy: "auto"
+    versioning-strategy: "increase"
+    ignore:
+      - dependency-name: "angular"
+        versions:
+          - ">= 0"
+      - dependency-name: "jquery"
+        versions:
+          - ">= 0"
+
+  # GitHub Actions - Weekly updates
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "03:00"
+    reviewers:
+      - "Corsica88"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "ci:"
